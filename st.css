@@ -1,0 +1,252 @@
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("m.jpg");
+    
+}
+.screen{
+    font-weight: bolder;
+    font-size: 40px;
+}
+#screen1{
+    color: black;
+    text-align: right;
+    margin-right: 12px;
+    
+}
+.body{
+    margin-top: 7%;
+    margin-left: 7%;
+    border: 2px solid;
+    width: 50vh;
+    height: 75vh;
+    border-radius: 8px;
+    background-color: rgb(206, 242, 198);
+    transition-delay: 0.2s;
+}
+.screen{
+    width :45vh;
+    height: 18vh;
+    color: aliceblue;
+}
+.keypad{
+    margin-left: 9%;
+    
+}
+.row1 .b_row1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color: #ffff;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+.row1 .b_row1:hover{
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color:  black;
+    background-color:  #ffff;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+.row1 .b_row1:active{
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color:  black;
+    background-color:  grey;
+    font-weight: bolder;
+    font-size: 15px;
+    text-shadow: 2px black;
+    
+}
+.row2 .b_row2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color: #ffff;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+.row2 .b_row2:hover{
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color:  black;
+    background-color:  #ffff;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+.row2 .b_row2:active{
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color:  black;
+    background-color:  grey;
+    font-weight: bolder;
+    font-size: 15px;
+    text-shadow: 2px black;
+    
+}
+.row3 .b_row3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color: #ffff;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+.row3 .b_row3:hover{
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color:  black;
+    background-color:  #ffff;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+.row3 .b_row3:active{
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color:  black;
+    background-color:  grey;
+    font-weight: bolder;
+    font-size: 15px;
+    text-shadow: 2px black;
+}  
+.row4 .b_row4{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color: #ffff;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+.row4 .b_row4:hover{
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color:  black;
+    background-color:  #ffff;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+.row4 .b_row4:active{
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color:  black;
+    background-color:  grey;
+    font-weight: bolder;
+    font-size: 15px;
+    text-shadow: 2px black;
+    
+}
+
+
+.row5 .b_row5{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color: #ffff;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+.row5 .b_row5:hover{
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color:  black;
+    background-color:  #ffff;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+.row5 .b_row5:active{
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border-width: 0px;
+    color:  black;
+    background-color:  grey;
+    font-weight: bolder;
+    font-size: 15px;
+    text-shadow: 2px black;
+    
+}
+
+.row5 button:nth-child(1){
+    width: 190px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(130, 56, 0);
+}
+.row5 button:nth-child(1):hover{
+    width: 190px;
+    height: 50px;
+    border-radius: 50px;
+}
+.row5 button:nth-child(2){
+    background-color: rgba(39, 75, 3, 0.96);
+}
+.row3 button:nth-child(4){
+    background-color: rgba(102, 6, 129, 0.96);
+}
+.row2 button:nth-child(4){
+    background-color: rgba(129, 125, 6, 0.96);
+}
+.row1 button:nth-child(4){
+    background-color: rgba(6, 129, 113, 0.96);
+}
+.row1 button:nth-child(1){
+    background-color: rgba(210, 49, 84, 0.96);
+}
+.row1 button:nth-child(2){
+    background-color: rgba(97, 115, 116, 0.96);
+}
+.row1 button:nth-child(3){
+    background-color: rgba(22, 6, 129, 0.96);
+}
+.row4 button:nth-child(4){
+    background-color: rgb(223, 120, 141);
+}
